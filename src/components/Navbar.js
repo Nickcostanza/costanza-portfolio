@@ -19,7 +19,9 @@ function Navbar() {
             <li className='nav-item'>
               <Link to='/contact' className='nav-links'>Contact</Link>
             </li>
-            <li className='nav-item'><Link to='??' className='nav-links'>Resume</Link>
+            <li className='nav-item'><a href='./assets/Nicholas_Costanza_-_Web_Developer.pdf' target='#blank' className='nav-links'>Resume</a>
+            </li>
+            <li className='nav-item'><a href='#projects' className='nav-links'>Projects</a>
             </li>
           </ul>
         </div>
